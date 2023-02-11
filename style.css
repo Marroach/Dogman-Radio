@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+  height: 700px;
+background-image: url(moon.jpg);
+background-position: center;
+background-size: cover  ;
+
+color: whitesmoke;
+
+}
+h1.hero{
+  margin: 0;
+}
+
+.menu-bar{
+    background-color: black;
+    height: 7rem;
+    border: 5pxs;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    margin: 2rem;
+    font-size: larger;
+    color: whitesmoke;
+    text-decoration: none
+    
+}
+a:link{
+    color: whitesmoke;
+
+}
+a:hover {
+    color: #f3f3f3;
+  }
+  a:visited{
+    color: grey;
+  }
+div.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* h1{
+    margin: 3rem;
+    font-weight: bold; */
+
+ h2 {
+    margin: 2rem;
+ }
+button{
+  background-color: #590004; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+button:hover {
+    background-color: black; 
+    color: white;
+  }
+/* -----------------------section 1 */
+  .sec1{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    
+  }
+  .sechead{
+    font-size: 30px;
+    text-align: center;
+    border: 10px solid #A50104;
+    max-width: 100%;
+    background-color: black;
+    color: whitesmoke;
+ 
+  }
+  
+  .sec1_left{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  }
+h4{
+  padding: 20px;
+}
+p {
+  padding: 20px;
+}
+
+ 
+  .circle{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    background-color: white;
+  
+  }
+  .sec1_right{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    text-align: center;
+  }
+ 
+ 
+
+/* -----------------------section 2 */
+
+.sec2{
+  border-top: 20px solid  #A50104;
+  background-color: black;
+  color: white;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
